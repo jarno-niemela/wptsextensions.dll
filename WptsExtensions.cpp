@@ -4,7 +4,8 @@
 /***
 Compile with MinGw
 
-i686-w64-mingw32-g++ wpts.cpp -lws2_32 -o wptsextensions.dll -shared
+x86_64-w64-mingw32-gcc wpts.cpp -lws2_32 -o wptsextensions.dll -shared 
+
 
 - Update bat script path: 
 const TCHAR script[] = TEXT("C:\\witable_dir\\script.bat");
